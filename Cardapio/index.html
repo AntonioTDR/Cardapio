@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>JAWS BURGER</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #03a5bb; 
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .menu-container {
+            max-width: 900px; 
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-top: 0;
+            color: #ec0202; 
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+
+        .item-image {
+            max-width: 100px;
+            max-height: 100px;
+            margin-right: 10px;
+        }
+
+        .item-info {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column; 
+        }
+
+        .item-name {
+            font-weight: bold;
+        }
+
+        .item-description {
+            margin-bottom: 10px; 
+        }
+
+        .item-price {
+            color: #03a5bb;
+        }
+
+        .logo {
+            max-width: 100px;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="Jaws.png" alt="JAWS">
+        <h1>JAWS BURGER</h1>
+    </header>
+    <div class="menu-container">
+        <section>
+            <h2>Lanches</h2>
+            <div class="menu-item">
+                <img class="item-image" src="vulcan.jpg" alt="Vulcan">
+                <div class="item-info">
+                    <span class="item-name">Hamburguer Vulcan</span>
+                    <p class="item-description">Pão, hambúrguer de 150gr, queijo cheddar, mussarela empanada,
+                         uma onion ring artesanal empanada e enrolada com bacon, e finalizado com geleia de pimenta vermelha.</p>
+                    <span class="item-price">R$ 49.99</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img class="item-image" src="vulcan2.jpg" alt="vulcan2">
+                <div class="item-info">
+                    <span class="item-name">Hamburguer vulcan2</span>
+                    <p class="item-description">Pão, hambúrguer de 150gr, queijo mussarela com toque de queijo gorgonzola, rúcula fresca, bacon, molho quatro queijos, uma onion ring artesanal empanada e finalizado com uma deliciosa geleia de amora.</p>
+                    <span class="item-price">R$ 55.99</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img class="item-image" src="Peperoni2.jpg" alt="PeperJaws">
+                <div class="item-info">
+                    <span class="item-name">Hamburguer Peperoni</span>
+                    <p class="item-description">Pão, hambúrguer de 150gr, queijo cheddar em fatias, peperoni em fatias, um disco de cheddar empanado, finalizado com geleia de alho.</p>
+                    <span class="item-price">R$ 58.99</span>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Aperitivos</h2>
+            <div class="menu-item">
+                <img class="item-image" src="batata.jpg" alt="Batata Frita">
+                <div class="item-info">
+                    <span class="item-name">Batata Frita</span>
+                    <p class="item-description">Porção crocante de batata frita, perfeita para acompanhar seus lanches favoritos.</p>
+                    <span class="item-price">R$ 11.99</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img class="item-image" src="onion.jpg" alt="Onion Rings">
+                <div class="item-info">
+                    <span class="item-name">Onion Rings</span>
+                    <p class="item-description">Deliciosos anéis de cebola empanados e fritos, um aperitivo saboroso.</p>
+                    <span class="item-price">R$ 10.99</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img class="item-image" src="nuggets.jpg" alt="Nuggets de Frango">
+                <div class="item-info">
+                    <span class="item-name">Nuggets de Frango</span>
+                    <p class="item-description">Nuggets de frango crocantes e suculentos, com um delicioso molho classico.</p>
+                    <span class="item-price">R$ 14.99</span>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Bebidas</h2>
+            <div class="menu-item">
+                <img class="item-image" src="cerveja.jpg" alt="Cerveja">
+                <div class="item-info">
+                    <span class="item-name">Cerveja</span>
+                    <p class="item-description">Cerveja sempre geladinha, perfeita para o calor!!!</p>
+                    <span class="item-price">R$ 6.99</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img class="item-image" src="suco.jpg" alt="Suco Natural">
+                <div class="item-info">
+                    <span class="item-name">Suco Natural</span>
+                    <p class="item-description">Sucos naturais feitos com frutas frescas e saudáveis para uma opção refrescante.</p>
+                    <span class="item-price">R$ 4.99</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img class="item-image" src="agua.jpg" alt="Água Mineral">
+                <div class="item-info">
+                    <span class="item-name">Água Mineral</span>
+                    <p class="item-description">Água mineral gelada, perfeita para matar a sede a qualquer momento.</p>
+                    <span class="item-price">R$ 2.99</span>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
